@@ -19,8 +19,8 @@
 function toEntry(row) {
     return {
         label: row.name,
-        quadrant: ['Data', 'Infra', 'Tool', 'Lang'].indexOf(row.quadrant),
-        ring: ['ADOPT', 'ASSESS', 'TRIAL', 'HOLD'].indexOf(row.ring),
+        quadrant: ['Lang', 'Infra', 'Tool', 'Data'].indexOf(row.quadrant),
+        ring: ['ADOPT', 'TRIAL', 'ASSESS', 'HOLD'].indexOf(row.ring),
         link: row.link,
         moved: ['down', 'none', 'up'].indexOf(row.moved) - 1,
         active: true
@@ -81,10 +81,10 @@ The Tech Radar is a list of technologies I personally use in my work, using foll
 </p>
 
 <ul>
-<li><strong>ADOPT</strong> &mdash; Technologies&amp;Tools I've high confidence in to serve work purpose, also have a high usage culture in Netcracker production environment, low risk and recommended to be widely used.</li>
+<li><strong>ADOPT</strong> &mdash; Technologies&amp;Tools that I've high confidence in to serve work purpose, also have a high usage culture in Netcracker production environment, low risk and recommended to be widely used.</li>
 <li><strong>TRIAL</strong> &mdash; Technologies&amp;Tools that I've seen work with success for project tasks to solve a real problem; first serious usage experience that confirm benefits and can uncover limitations. TRIAL technologies are slightly more risky - some engineers in our organization walked this path and will share knowledge and experiences.</li>
 <li><strong>ASSESS</strong> &mdash; Technologies&amp;Tools that I believe are promising and have clear potential value-add; technologies&amp;tools worth to invest some research and prototyping efforts in to see if it has impact.</li>
-<li><strong>HOLD</strong> &mdash; Technologies&amp;Tools I've an expertise, but have no intention to use for new projects/tasks. Technologies&amp;Tools that I personally think are not (yet) worth to (further) invest in. HOLD technologies usually can be continued for existing projects/tasks.</li>
+<li><strong>HOLD</strong> &mdash; Technologies&amp;Tools that I've an expertise, but have no intention to use for new projects/tasks. Technologies&amp;Tools that I personally think are not (yet) worth to (further) invest in. Usually HOLD technologies can be continued using for existing projects/tasks.</li>
 </ul>
 
 </td><td>
@@ -92,7 +92,7 @@ The Tech Radar is a list of technologies I personally use in my work, using foll
 <h3>What is the purpose?</h3>
 
 <p>
-The Tech Radar is a tool to inspire and provide the perspective for myself to pick the best technologies for new projects/tasks; somehow to reflect on technology decisions and continuously evolve my technology landscape. Based on the <a href="https://www.thoughtworks.com/radar">pioneering work of ThoughtWorks</a> and <a href="https://github.com/zalando/tech-radar">zalando tech-radar</a>  sample.
+The Tech Radar is a tool to inspire and provide the perspective for myself to pick the best technologies for new projects/tasks; somehow to reflect on technology decisions and continuously evolve my technology landscape. Based on the <a href="https://www.thoughtworks.com/radar">pioneering work of ThoughtWorks</a> and <a href="https://github.com/zalando/tech-radar">zalando tech-radar</a> sample.
 </p>
 
 </td></tr>
