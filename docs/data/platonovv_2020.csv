@@ -1,0 +1,5 @@
+name,ring,quadrant,moved,link
+Java,ADOPT,Lang,none,../docs/java.html
+Typescript,HOLD,Infra,up,../docs/typescript.html
+DataTest,TRIAL,Data,none,../docs/java.html
+Lens,ASSESS,Tool,up,../docs/typescript.html
